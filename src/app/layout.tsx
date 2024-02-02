@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         {children}
-        <footer>Copyright Usman Inc.</footer>
+        <footer className='text-blue-600'>Copyright Usman Inc.</footer>
       </body>
     </html>
   );
